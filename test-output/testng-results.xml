@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-23T06:58:25Z" name="Default suite" finished-at="2020-07-23T06:59:09Z" duration-ms="44137">
+    <groups>
+    </groups>
+    <test started-at="2020-07-23T06:58:25Z" name="Default test" finished-at="2020-07-23T06:59:09Z" duration-ms="44137">
+      <class name="SeleniumPractice.LinkedIn">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:SeleniumPractice.LinkedIn@1356d4d4]" started-at="2020-07-23T06:58:25Z" name="initDriver" finished-at="2020-07-23T06:58:35Z" duration-ms="9909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="LinkedInSearch(java.lang.String, java.lang.String)[pri:0, instance:SeleniumPractice.LinkedIn@1356d4d4]" started-at="2020-07-23T06:58:35Z" name="LinkedInSearch" data-provider="searchData" finished-at="2020-07-23T06:59:08Z" duration-ms="33118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sainath0056@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linkedin25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedInSearch -->
+        <test-method is-config="true" signature="quitBrowswer()[pri:0, instance:SeleniumPractice.LinkedIn@1356d4d4]" started-at="2020-07-23T06:59:08Z" name="quitBrowswer" finished-at="2020-07-23T06:59:09Z" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowswer -->
+      </class> <!-- SeleniumPractice.LinkedIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
